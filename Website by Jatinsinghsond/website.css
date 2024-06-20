@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+#sliders1{
+    display: grid;
+    place-items: center;
+    height: 2rem;
+    width: 100%;
+    background-color: rgba(83, 73, 73, 0.689);
+}
+#slidetext{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+.h-logo{
+    background-image: url("ApniDukan.png");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/** box 2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.5rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+/** box3 **/
+.nav-search{
+    display: flex;
+    background-color: orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color: #cccccc;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 55px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size:1rem;
+    border: none;
+    padding: 1rem;
+}
+input[type=text]{
+    border-style: none;
+    outline: 0;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-signin{
+    color: #fff;
+
+}
+#mode{
+    width: 125px;
+    height: 30px;
+    font-size: large;
+    color: #fff;
+    background-color: black;
+    border: none;
+    font-weight: 600;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+.category-container{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    height: 160px;
+}
+.category{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.item{
+    width: 150px;
+    margin-right: 10px;
+    text-align: center;
+}
+.cat1{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.shop-box{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 230px;
+    background-color: white;
+    padding: 10px;
+}
+.shop1{
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 197px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.p1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-right: 10px;
+}
+/** box4,5 **/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** box6**/
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** panel**/
+.panel{
+    height: 40px;
+    background-color: rgb(73, 67, 67);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel-opt p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.item a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+/** hero section**/
+.hero-section{
+    background-image: url("hero.jpg") ;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    position: relative;
+    bottom: 4px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.hero-msg a{
+    font-weight: 500;
+}
+
+.marq-container {
+    height: 310px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.marq-container img {
+    height: 290px;
+    width: auto;
+    margin-right: 5px;
+}
+
+#sliders2{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+#slideimage{
+    height: auto;
+    width: 100%;
+}
+
+/** shop section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    position: relative;
+    bottom: 17px;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 23%;
+    background-color: aliceblue;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+
+.box-img{
+    height: 240px;
+    background-size: cover;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+} 
+.box-content h2{
+    color: black;
+    cursor: pointer;
+}
+.box-content p{
+    color: blue;
+    font-size: medium;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.w-section{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 219, 228);
+}
+.w-heading{
+    align-items: center;
+    font-size: x-large;
+    background-color: rgb(80, 72, 233);
+    height: 200px;
+    width: 300px;
+    padding: 2rem 1rem 0 1rem;
+    color: white;
+    position: relative;
+    right: 20px;
+}
+.watch{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 1rem;
+}
+
+.p1 {
+    margin-right: 50px; 
+    border-radius: 15%;
+}
+
+/* back to top */
+footer{
+    margin-top: 15px;
+}
+.foot-panel{
+    background-color: rgb(88, 131, 196);
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: rgb(61, 54, 54);
+    color: white;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+.foot-panel3 {
+    background-color: rgb(61, 54, 54);
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-image: url("ApniDukan.png");
+    background-size: cover;
+    height: 60px;
+    width: 100px;
+} 
+
+.foot-panel4{
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.pages{
+    padding-top: 25px;
+    color: #cccccc;
+}
+.copyright{
+    padding-top: 5px;
+}
+
+#ads{
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.ad-item {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-item video{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 30px;
+}
+.ad-item img{
+    width: 80%;
+    position: relative;
+    left: 20px;
+}
+
